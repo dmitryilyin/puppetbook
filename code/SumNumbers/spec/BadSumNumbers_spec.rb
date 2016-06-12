@@ -20,7 +20,7 @@ describe BadSumNumbers do
     sn.add(2)
     sn.sum.should == 4
   end
-  it "should substract given value" do
+  it "should subtract given value" do
     sn = BadSumNumbers.new(5)
     sn.sub(3)
     sn.sum.should == 2

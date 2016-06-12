@@ -4,13 +4,13 @@ BadSumNumbers
   should have given initial sum
   should add every new number to the sum
   should add all new numbers to initial sum
-  should substract given value (FAILED - 1)
+  should subtract given value (FAILED - 1)
   should be positive if sum is more ther zero
   should not be positive if sum is lesser or equal zero
 
 Failures:
 
-  1) BadSumNumbers should substract given value
+  1) BadSumNumbers should subtract given value
      Failure/Error: sn.sum.should == 2
        expected: 2
             got: 8 (using ==)
@@ -21,4 +21,4 @@ Finished in 0.0016 seconds
 
 Failed examples:
 
-rspec ./spec/BadSumNumbers_spec.rb:23 # BadSumNumbers should substract given value
+rspec ./spec/BadSumNumbers_spec.rb:23 # BadSumNumbers should subtract given value

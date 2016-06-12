@@ -4,7 +4,7 @@ SumNumbers
   should have given initial sum
   should add every new number to the sum
   should add all new numbers to initial sum
-  should substract given value
+  should subtract given value
   should be positive if sum is more ther zero
   should not be positive if sum is lesser or equal zero
 
